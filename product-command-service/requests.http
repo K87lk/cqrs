@@ -1,0 +1,14 @@
+### GET request to example server
+GET https://examples.http-client.intellij.net/get
+    ?generated-in=IntelliJ IDEA
+
+###
+
+POST localhost:8081/products
+Content-Type: application/json
+
+{
+  "name" : "Lenovo Legion 5",
+  "description": "Laptop",
+  "price": 2000
+}
